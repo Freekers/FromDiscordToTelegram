@@ -4,7 +4,7 @@ import json
 import requests
 from datetime import datetime, timedelta
 from aiogram import Bot, types
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.dispatcher import Dispatcher
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
